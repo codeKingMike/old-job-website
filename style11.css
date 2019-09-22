@@ -139,6 +139,7 @@ body {
 
 .left-side h2 {
 	font-size: 2em;
+	color: #001e3d;
 }
 
 .left-side p, .left-side li  {
@@ -147,10 +148,30 @@ body {
 	padding-top: 15px
 }
 
+.googleColor {
+	text-transform: uppercase;
+}
+
+span .red {
+	color: red;
+}
+
+span .yellow {
+	color: orange;
+}
+
+span .blue {
+	color: blue;
+}
+
+span .green {
+	color: green;
+}
+
 .right-side h2 {
 	text-align: center;
 	padding-bottom: 50px;
-	font-size: 4.5rem;
+	font-size: 4.2rem;
 }
 
 #img-section {
