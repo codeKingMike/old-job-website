@@ -60,6 +60,7 @@ body {
 #about-us h2{
 	padding-bottom: 30px;
 	font-size: 7rem;
+	color: #A7B7EE;
 }
 
 
@@ -85,14 +86,23 @@ body {
 	text-align: center; 
 	font-size: 3rem;
 	word-spacing: 2px;
+	color: #fff;
 }
 
+.floatThis .col-md-4 {
+	display: flex;
+}
+.floatThis .col-md-4 p {
+	text-align-last: initial;
+	color: #fff;
+	font-weight: 200;
+}
 .section-text{
-	padding-bottom: 30px;
+	padding: 50px 0;
 	font-weight: bold;
 	text-align: center; 
-	width:90%;
-	font-size: 20px;
+
+	font-size: 8px;
 	word-spacing: 2px;
 }
 
@@ -102,16 +112,17 @@ body {
 }
 
 #about-us i {
-	color: red;
+	
 	float: left;
 }
 #about-us .icon-para {
 	float: right;
+	font-weight: 200;
 }
 
 .city {
 	padding-bottom: 20px;
-	color: red;
+	color: #A9B7B8;
 }
 
 #google {
