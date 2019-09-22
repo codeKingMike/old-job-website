@@ -126,16 +126,31 @@ body {
 }
 
 #google {
-	min-height: 600px;
+	min-height: 80vh;
+	padding-top: 50px;
+	font-size: 2.3rem;
 }
 
 .left-side {
-	padding: 140px 15px 40px 70px;
+	/* padding: 140px 15px 40px 70px; */
+	padding: 140px 15px 180px 20px;
+	
+}
+
+.left-side h2 {
+	font-size: 2em;
+}
+
+.left-side p, .left-side li  {
+	font-size: 1.2em;
+	font-weight: 400;
+	padding-top: 15px
 }
 
 .right-side h2 {
 	text-align: center;
 	padding-bottom: 50px;
+	font-size: 4.5rem;
 }
 
 #img-section {
