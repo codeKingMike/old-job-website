@@ -1,6 +1,6 @@
 body {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 15px;
+	font-size: 16px;
 	line-height:1.5;
 	padding:0;
 	margin:0;
@@ -50,27 +50,25 @@ body {
 	line-height: 1.2em;
 }
 
-#section-col {
-	margin: 70px 0 0 10px;
-	min-height: 550px;
-}
-
-#section-col img{
-	height: 200px;
-	width: 350px;
-	position: center;
-}
-
 #about-us {
-	min-height: 500px;
+	min-height: 100vh;
 	background: #000;
 	text-align: center;
+	padding: 150px 50px;
 }
 
 #about-us h2{
-	padding-top: 130px;
 	padding-bottom: 30px;
-	font-weight: bold;
+	font-size: 7rem;
+}
+
+
+#about-us .section-subheading h2{
+	font-size: 5rem;
+	font-weight: 300;
+	color: #fff;
+	margin-top: 55px;
+	
 }
 
 #about-us h3{
@@ -78,14 +76,14 @@ body {
 	word-spacing: 0.4em;
 	padding-bottom: 30px;
 	font-weight: bold;
+	font-size: 3.5rem;
 }
 
 #about-us p{
 	padding-bottom: 30px;
-	font-weight: bold;
+	font-weight: 400;
 	text-align: center; 
-	width:90%;
-	font-size: 20px;
+	font-size: 3rem;
 	word-spacing: 2px;
 }
 
