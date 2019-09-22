@@ -36,7 +36,11 @@ body {
 }
 #main-title h1{
 	font-weight: bold;
-	font-size: 12rem;
+	font-size: 10rem;
+}
+
+#main-title h1 .ppc{
+	font-size: 16rem;
 }
 
 #main-title p{
