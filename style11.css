@@ -1,0 +1,170 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height:1.5;
+	padding:0;
+	margin:0;
+	background-color: #e4e4e4;
+}
+
+ .container {
+ 	width: 80%;
+ 	margin: auto;
+ 	overflow: hidden;
+ }
+
+#main-title {
+	color: green;
+	background: url('https://chainimage.com/images/nature-wallpapers-hd-1080p-desktop-background-1920x1080-19.jpg');
+	background-position: right bottom;
+	min-height: 450px;
+	margin-top:-20px;
+}
+
+
+#main-title h2{
+	padding-top: 130px;
+	padding-left: 50px;
+}
+
+#section-col {
+	margin: 70px 0 0 10px;
+	min-height: 550px;
+}
+
+#section-col img{
+	height: 200px;
+	width: 350px;
+	position: center;
+}
+
+#about-us {
+	min-height: 500px;
+	background: #000;
+	text-align: center;
+}
+
+#about-us h2{
+	padding-top: 130px;
+	padding-bottom: 30px;
+	font-weight: bold;
+}
+
+#about-us h3{
+	padding-top: 30px;
+	word-spacing: 0.4em;
+	padding-bottom: 30px;
+	font-weight: bold;
+}
+
+#about-us p{
+	padding-bottom: 30px;
+	font-weight: bold;
+	text-align: center; 
+	width:90%;
+	font-size: 20px;
+	word-spacing: 2px;
+}
+
+.section-text{
+	padding-bottom: 30px;
+	font-weight: bold;
+	text-align: center; 
+	width:90%;
+	font-size: 20px;
+	word-spacing: 2px;
+}
+
+#about-us .section-text {
+	text-align: center;
+	text-indent: 40px;
+}
+
+#about-us i {
+	color: red;
+	float: left;
+}
+#about-us .icon-para {
+	float: right;
+}
+
+.city {
+	padding-bottom: 20px;
+	color: red;
+}
+
+#google {
+	min-height: 600px;
+}
+
+.left-side {
+	padding: 140px 15px 40px 70px;
+}
+
+.right-side h2 {
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+#img-section {
+	margin: 0 20px 20px 20px;
+	min-height: 800px;
+	border-bottom: 3px solid black;
+
+} 
+
+#seo {
+	padding-top: 80px;
+}
+
+#our-process {
+	min-height: 450px;
+}
+
+#our-process h2, #our-process ol {
+	text-align: center;	
+}
+
+#our-process .container {
+	margin-top: 80px;
+}
+
+#form-section {
+	min-height: 550px;
+	background: url('http://www.aegismarketingsolutions.com/wp-content/uploads/2018/03/contact-bg-new.jpg');
+	background-position: right top;	
+	background-attachment: fixed;
+	/*background-size: 100% 100%;*/
+	color:red;
+}
+#form-section textarea {
+	width: 100%;
+	padding: 22px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+}
+
+#form-section a {
+	margin-bottom: 90px;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+/*input[type=textarea] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}*/
+
+
+
+footer {
+	background: #000;
+	min-height: 400px;
+}

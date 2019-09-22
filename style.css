@@ -1,0 +1,27 @@
+body{
+		padding:0;
+		margin:0;
+		font-family: sans-serif;
+		font-size: 18px;
+		background: #fffdff;
+	}
+
+	section{
+		margin: 0;
+		padding: 0;
+		color: red;
+	}
+	#main-title{
+		background:url(http://www.hdwallpaperup.com/wp-content/uploads/2015/01/Laptop-wallpaper-1920x1080.jpg);
+		max-height: 300px;
+	}
+	.jumbotron{
+		margin-top: -30px;
+		background-color: #000;
+	}
+	.jumbotron h1{
+		color: #fff;
+	}
+  .showcase-btn{
+     margin-top: 30px;
+   } 
