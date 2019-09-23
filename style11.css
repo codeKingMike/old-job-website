@@ -182,7 +182,19 @@ span .green {
 } 
 
 #seo {
-	padding-top: 80px;
+	padding: 80px;
+	/* margin: 200px; */
+}
+
+#seo h1 {
+	font-size: 5rem;
+
+#seo q {
+	
+}
+
+#seo p {
+	
 }
 
 #our-process {
