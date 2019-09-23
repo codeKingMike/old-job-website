@@ -217,6 +217,13 @@ span .green {
 	list-style-type: none;	
 }
 
+#our-process ul li, #our-process ol li {
+	font-size: 1rem;
+	font-weight: 300;	
+	margin-bottom: 10px;
+}
+
+
 #our-process .container {
 	margin-top: 80px;
 }
