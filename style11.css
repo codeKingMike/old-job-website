@@ -205,11 +205,16 @@ span .green {
 }
 
 #our-process {
-	min-height: 450px;
+	min-height: 500px;
+	padding-bottom: 50px;
 }
 
-#our-process h2, #our-process ol {
+#our-process h2 {
 	text-align: center;	
+}
+
+#our-process ul {
+	list-style-type: none;	
 }
 
 #our-process .container {
