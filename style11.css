@@ -233,18 +233,22 @@ span .green {
 	background: url('http://www.aegismarketingsolutions.com/wp-content/uploads/2018/03/contact-bg-new.jpg');
 	background-position: right top;	
 	background-attachment: fixed;
-	/*background-size: 100% 100%;*/
-	color:red;
+	padding-bottom: 80px;
 }
+
+#form-section h1 {
+	font-weight: 300;
+}
+
+#form-section img {
+	margin: 0 6px 40px;
+}
+
 #form-section textarea {
 	width: 100%;
 	padding: 22px 20px;
 	margin: 8px 0;
 	box-sizing: border-box;
-}
-
-#form-section a {
-	margin-bottom: 90px;
 }
 
 input[type=text] {
@@ -261,7 +265,9 @@ input[type=text] {
   box-sizing: border-box;
 }*/
 
-
+.butt1 {
+	padding-bottom: 40px;
+}
 
 footer {
 	background: url(http://www.aegismarketingsolutions.com/wp-content/uploads/2018/03/footer-bg-new-2.jpg);
