@@ -264,6 +264,39 @@ input[type=text] {
 
 
 footer {
-	background: #000;
+	background: url(http://www.aegismarketingsolutions.com/wp-content/uploads/2018/03/footer-bg-new-2.jpg);
+	background-size: cover;
+	background-position: center;
 	min-height: 400px;
+}
+
+footer p {
+	color: #fff;
+}
+
+footer p.grey {
+	color: #aebdc6;
+}
+
+footer h3 {
+	padding-bottom: 20px;
+	color: #aebdc6;
+}
+
+footer i {
+	font-size: 50px;
+	padding: 5px;
+}
+
+footer a {
+	color: #fff;
+}
+
+#footerText {
+	text-align: center;
+}
+
+#footerText img {
+	margin: 0 auto;
+	padding: 20px;
 }
