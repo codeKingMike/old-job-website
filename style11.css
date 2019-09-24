@@ -214,6 +214,8 @@ span .green {
 
 #our-process h2 {
 	text-align: center;	
+	color: #001e3d;
+	font-weight: 400;
 }
 
 #our-process ul {
@@ -221,9 +223,10 @@ span .green {
 }
 
 #our-process ul li, #our-process ol li {
-	font-size: 1rem;
+	font-size: 2.2rem;
 	font-weight: 300;	
 	margin-bottom: 10px;
+	color: #002038;
 }
 
 
@@ -369,5 +372,26 @@ footer a {
 		padding-bottom: 150px;
 		
 	}
+
+	#our-process ul li, #our-process ol li {
+		
+		font-size: 1rem;
+	}
     
+  }
+
+
+  @media only screen and (max-width: 900px) {
+    body {
+	  color: #333;
+	  /* display: none; */
+	}
+	
+	#our-process ul li, #our-process ol li {
+		
+		font-size: 1rem;
+	}
+
+
+	
   }
