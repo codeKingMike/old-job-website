@@ -306,3 +306,37 @@ footer a {
 	margin: 0 auto;
 	padding: 20px;
 }
+
+/* Media Query */
+@media only screen and (max-width: 600px) {
+    body {
+	  color: #333;
+	  /* display: none; */
+	}
+
+	#main-title {
+		min-height: 50vh;
+		position: relative;
+	}
+
+	#main-title h1, #main-title p {
+		font-size: 3rem;
+		position: absolute;
+		margin: 5px;
+	}
+
+	#main-title h1 {
+		top: -150px;
+		right: ;
+	}
+
+	#main-title h1 .ppc {
+		font-size: 10.8rem;
+	}
+	
+	/* #main-title h1 .ppc {
+		color: red;
+		font-size: rem;
+	} */
+    
+  }
