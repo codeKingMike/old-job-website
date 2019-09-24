@@ -128,7 +128,7 @@ body {
 #google {
 	min-height: 80vh;
 	padding-top: 50px;
-	font-size: 2.3rem;
+	font-size: 1.3rem;
 }
 
 .left-side {
@@ -145,6 +145,10 @@ body {
 	font-size: 1.2em;
 	font-weight: 400;
 	padding-top: 15px
+}
+
+.left-side li  {
+	color: #002038;
 }
 
 .googleColor {
@@ -350,6 +354,20 @@ footer a {
 	#about-us h3{
 		font-size: 2.3rem;
 	}
-	
+	/* Google Area Mobile */
+	#google {
+		font-size: 1.7rem;
+		
+	}
+
+	#google .left-side ul li:nth-child(4){
+		margin-bottom: -100px;
+		
+	}
+
+	#google img {
+		padding-bottom: 150px;
+		
+	}
     
   }
