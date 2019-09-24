@@ -132,7 +132,6 @@ body {
 }
 
 .left-side {
-	/* padding: 140px 15px 40px 70px; */
 	padding: 140px 15px 180px 20px;
 	
 }
@@ -311,9 +310,8 @@ footer a {
 @media only screen and (max-width: 600px) {
     body {
 	  color: #333;
-	  /* display: none; */
 	}
-
+	/* Main Title Mobile */
 	#main-title {
 		min-height: 50vh;
 		position: relative;
@@ -327,16 +325,31 @@ footer a {
 
 	#main-title h1 {
 		top: -150px;
-		right: ;
 	}
 
 	#main-title h1 .ppc {
 		font-size: 10.8rem;
 	}
+	/* My Digital Marketing Mobile */
+	#about-us {
+		min-height: 80vh;
+		background: #000;
+		text-align: center;
+		
+	}
 	
-	/* #main-title h1 .ppc {
-		color: red;
-		font-size: rem;
-	} */
+	#about-us .section-heading h2, #about-us .section-subheading h2{
+		font-weight: 100;
+		font-size: 4rem;
+	}
+	
+	#about-us .section-text p {
+		font-size: 2rem;
+	}
+
+	#about-us h3{
+		font-size: 2.3rem;
+	}
+	
     
   }
